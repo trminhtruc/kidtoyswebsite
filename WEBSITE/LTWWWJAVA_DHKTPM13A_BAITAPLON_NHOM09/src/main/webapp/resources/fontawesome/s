@@ -1,0 +1,4 @@
+JLabel backgroundImgLabel = new JLabel(new ImageIcon(hình nền));
+backgroundImgLabel.setSize(frame.getSize().width, frame.getSize().height);
+
+frame.add(backgroundImgLabel);
